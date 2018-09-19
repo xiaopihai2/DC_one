@@ -1,0 +1,23 @@
+2018-08-03 22:50:55,235 - m2_lgb.py:144 - train - X_train.shape=(50054, 507), X_test.shape=(12415, 521)
+2018-08-03 22:50:55,235 - m2_lgb.py:66 - train - X_train.shape=(50054, 507), X_test.shape=(12415, 521)
+2018-08-03 22:58:25,170 - m2_lgb.py:145 - train - X_train.shape=(50054, 507), X_test.shape=(12415, 521)
+2018-08-03 22:58:25,171 - m2_lgb.py:66 - train - X_train.shape=(50054, 507), X_test.shape=(12415, 521)
+2018-08-03 23:01:19,560 - m2_lgb.py:146 - train - X_train.shape=(50054, 507), X_test.shape=(12415, 521)
+2018-08-03 23:01:19,560 - m2_lgb.py:66 - train - X_train.shape=(50054, 507), X_test.shape=(12415, 521)
+2018-08-03 23:06:16,465 - m2_lgb.py:146 - train - X_train.shape=(50054, 507), X_test.shape=(12415, 521)
+2018-08-03 23:06:16,466 - m2_lgb.py:66 - train - X_train.shape=(50054, 507), X_test.shape=(12415, 521)
+2018-08-03 23:07:48,350 - m2_lgb.py:145 - train - X_train.shape=(50054, 507), X_test.shape=(12415, 521)
+2018-08-03 23:07:48,350 - m2_lgb.py:66 - train - X_train.shape=(50054, 507), X_test.shape=(12415, 521)
+2018-08-03 23:11:44,345 - m2_lgb.py:151 - train - X_train.shape=(50054, 507), X_test.shape=(12415, 507)
+2018-08-03 23:11:44,346 - m2_lgb.py:67 - train - X_train.shape=(50054, 507), X_test.shape=(12415, 507)
+2018-08-03 23:25:41,612 - m2_lgb.py:71 - train - best_round=743, best_result=0.9846726795873719
+2018-08-03 23:30:04,411 - m2_lgb.py:150 - train - X_train.shape=(50054, 507), X_test.shape=(12415, 521)
+2018-08-03 23:31:25,402 - m2_lgb.py:150 - train - X_train.shape=(50054, 507), X_test.shape=(12415, 521)
+2018-08-03 23:36:36,783 - m2_lgb.py:150 - train - X_train.shape=(50054, 507), X_test.shape=(12415, 521)
+2018-08-03 23:40:58,785 - m2_lgb.py:150 - train - X_train.shape=(50054, 507), X_test.shape=(12415, 521)
+2018-08-03 23:42:35,448 - m2_lgb.py:150 - train - X_train.shape=(50054, 507), X_test.shape=(12415, 521)
+2018-08-03 23:42:35,449 - m2_lgb.py:68 - train - X_train.shape=(50054, 507), X_test.shape=(12415, 521)
+2018-08-03 23:57:09,251 - m2_lgb.py:72 - train - best_round=743, best_result=0.9846726795873719
+2018-08-03 23:59:52,332 - m2_lgb.py:151 - train - X_train.shape=(50054, 507), X_test.shape=(12415, 521)
+2018-08-03 23:59:52,333 - m2_lgb.py:68 - train - X_train.shape=(50054, 507), X_test.shape=(12415, 521)
+2018-08-04 00:13:47,359 - m2_lgb.py:72 - train - best_round=743, best_result=0.9846726795873719

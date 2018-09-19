@@ -1,0 +1,73 @@
+2018-08-05 00:34:15,005 - gridsearch_1_xgb.py:92 - search - X_train.shape=(50054, 507), X_test.shape=(12415, 507)
+2018-08-05 00:34:15,006 - gridsearch_1_xgb.py:100 - search - {'colsample_bytree': [0.5, 0.6, 0.8], 'learning_rate': [0.01, 0.025, 0.05], 'max_path': [5, 6, 7, 8], 'subsample': [0.6, 0.8]}
+2018-08-05 00:35:09,687 - gridsearch_1_xgb.py:92 - search - X_train.shape=(50054, 507), X_test.shape=(12415, 507)
+2018-08-05 00:35:09,688 - gridsearch_1_xgb.py:100 - search - {'subsample': [0.6, 0.8], 'learning_rate': [0.01, 0.025, 0.05], 'colsample_bytree': [0.5, 0.6, 0.8], 'max_path': [5, 6, 7, 8]}
+2018-08-05 00:36:04,564 - gridsearch_1_xgb.py:92 - search - X_train.shape=(50054, 507), X_test.shape=(12415, 507)
+2018-08-05 00:36:04,564 - gridsearch_1_xgb.py:100 - search - {'learning_rate': [0.01, 0.025, 0.05], 'max_path': [5, 6, 7, 8], 'colsample_bytree': [0.5, 0.6, 0.8], 'subsample': [0.6, 0.8]}
+2018-08-05 00:36:04,565 - gridsearch_1_xgb.py:58 - search - 开始网格搜索，参数组的种类:72
+2018-08-05 00:36:39,169 - gridsearch_1_xgb.py:92 - search - X_train.shape=(50054, 507), X_test.shape=(12415, 507)
+2018-08-05 00:36:39,170 - gridsearch_1_xgb.py:100 - search - {'learning_rate': [0.01, 0.025, 0.05], 'max_path': [5, 6, 7, 8], 'subsample': [0.6, 0.8], 'colsample_bytree': [0.5, 0.6, 0.8]}
+2018-08-05 00:36:39,171 - gridsearch_1_xgb.py:58 - search - 开始网格搜索，参数组的种类:72
+2018-08-05 00:36:39,171 - gridsearch_1_xgb.py:61 - search - 进度：1/72
+2018-08-05 00:38:35,267 - gridsearch_1_xgb.py:93 - search - X_train.shape=(50054, 507), X_test.shape=(12415, 507)
+2018-08-05 00:38:35,268 - gridsearch_1_xgb.py:101 - search - {'colsample_bytree': [0.5, 0.6, 0.8], 'subsample': [0.6, 0.8], 'learning_rate': [0.01, 0.025, 0.05], 'max_path': [5, 6, 7, 8]}
+2018-08-05 00:38:35,269 - gridsearch_1_xgb.py:59 - search - 开始网格搜索，参数组的种类:72
+2018-08-05 00:38:35,270 - gridsearch_1_xgb.py:62 - search - 进度：1/72
+2018-08-05 00:42:53,307 - gridsearch_1_xgb.py:94 - search - X_train.shape=(50054, 507), X_test.shape=(12415, 507)
+2018-08-05 00:42:53,308 - gridsearch_1_xgb.py:102 - search - {'learning_rate': [0.01, 0.025, 0.05], 'subsample': [0.6, 0.8], 'max_path': [5, 6, 7, 8], 'colsample_bytree': [0.5, 0.6, 0.8]}
+2018-08-05 00:42:53,600 - gridsearch_1_xgb.py:60 - search - 开始网格搜索，参数组的种类:72
+2018-08-05 00:42:53,601 - gridsearch_1_xgb.py:63 - search - 进度：1/72
+2018-08-05 00:47:39,098 - gridsearch_1_xgb.py:94 - search - X_train.shape=(50054, 507), X_test.shape=(12415, 507)
+2018-08-05 00:47:39,099 - gridsearch_1_xgb.py:102 - search - {'subsample': [0.6, 0.8], 'learning_rate': [0.01, 0.025, 0.05], 'max_path': [5, 6, 7, 8], 'colsample_bytree': [0.5, 0.6, 0.8]}
+2018-08-05 00:47:39,105 - gridsearch_1_xgb.py:60 - search - 开始网格搜索，参数组的种类:72
+2018-08-05 00:47:39,105 - gridsearch_1_xgb.py:63 - search - 进度：1/72
+2018-08-05 04:31:51,709 - gridsearch_1_xgb.py:72 - search - Best_auc=0.9839249999999999, auc=0.9839249999999999, round=4359, params={'subsample': 0.6, 'learning_rate': 0.01, 'max_path': 5, 'colsample_bytree': 0.5}
+2018-08-05 04:31:51,709 - gridsearch_1_xgb.py:63 - search - 进度：2/72
+2018-08-05 08:25:26,277 - gridsearch_1_xgb.py:72 - search - Best_auc=0.9841212, auc=0.9841212, round=4268, params={'subsample': 0.8, 'learning_rate': 0.01, 'max_path': 5, 'colsample_bytree': 0.5}
+2018-08-05 08:25:26,277 - gridsearch_1_xgb.py:63 - search - 进度：3/72
+2018-08-05 09:53:48,865 - gridsearch_1_xgb.py:72 - search - Best_auc=0.9841212, auc=0.9838885999999999, round=1678, params={'subsample': 0.6, 'learning_rate': 0.025, 'max_path': 5, 'colsample_bytree': 0.5}
+2018-08-05 09:53:48,865 - gridsearch_1_xgb.py:63 - search - 进度：4/72
+2018-08-05 12:01:01,893 - gridsearch_1_xgb.py:72 - search - Best_auc=0.9844164, auc=0.9844164, round=2269, params={'subsample': 0.8, 'learning_rate': 0.025, 'max_path': 5, 'colsample_bytree': 0.5}
+2018-08-05 12:01:01,893 - gridsearch_1_xgb.py:63 - search - 进度：5/72
+2018-08-05 12:54:58,151 - gridsearch_1_xgb.py:72 - search - Best_auc=0.9844164, auc=0.9836832, round=964, params={'subsample': 0.6, 'learning_rate': 0.05, 'max_path': 5, 'colsample_bytree': 0.5}
+2018-08-05 12:54:58,152 - gridsearch_1_xgb.py:63 - search - 进度：6/72
+2018-08-05 13:55:01,740 - gridsearch_1_xgb.py:72 - search - Best_auc=0.9844164, auc=0.9840102, round=1097, params={'subsample': 0.8, 'learning_rate': 0.05, 'max_path': 5, 'colsample_bytree': 0.5}
+2018-08-05 13:55:01,741 - gridsearch_1_xgb.py:63 - search - 进度：7/72
+2018-08-05 17:41:45,891 - gridsearch_1_xgb.py:72 - search - Best_auc=0.9844164, auc=0.9839249999999999, round=4359, params={'subsample': 0.6, 'learning_rate': 0.01, 'max_path': 6, 'colsample_bytree': 0.5}
+2018-08-05 17:41:45,891 - gridsearch_1_xgb.py:63 - search - 进度：8/72
+2018-08-05 21:53:44,930 - gridsearch_1_xgb.py:72 - search - Best_auc=0.9844164, auc=0.9841212, round=4268, params={'subsample': 0.8, 'learning_rate': 0.01, 'max_path': 6, 'colsample_bytree': 0.5}
+2018-08-05 21:53:44,930 - gridsearch_1_xgb.py:63 - search - 进度：9/72
+2018-08-05 23:33:14,869 - gridsearch_1_xgb.py:72 - search - Best_auc=0.9844164, auc=0.9838885999999999, round=1678, params={'subsample': 0.6, 'learning_rate': 0.025, 'max_path': 6, 'colsample_bytree': 0.5}
+2018-08-05 23:33:14,870 - gridsearch_1_xgb.py:63 - search - 进度：10/72
+2018-08-06 01:42:22,661 - gridsearch_1_xgb.py:72 - search - Best_auc=0.9844164, auc=0.9844164, round=2269, params={'subsample': 0.8, 'learning_rate': 0.025, 'max_path': 6, 'colsample_bytree': 0.5}
+2018-08-06 01:42:22,662 - gridsearch_1_xgb.py:63 - search - 进度：11/72
+2018-08-06 02:34:33,597 - gridsearch_1_xgb.py:72 - search - Best_auc=0.9844164, auc=0.9836832, round=964, params={'subsample': 0.6, 'learning_rate': 0.05, 'max_path': 6, 'colsample_bytree': 0.5}
+2018-08-06 02:34:33,597 - gridsearch_1_xgb.py:63 - search - 进度：12/72
+2018-08-06 03:36:54,787 - gridsearch_1_xgb.py:72 - search - Best_auc=0.9844164, auc=0.9840102, round=1097, params={'subsample': 0.8, 'learning_rate': 0.05, 'max_path': 6, 'colsample_bytree': 0.5}
+2018-08-06 03:36:54,787 - gridsearch_1_xgb.py:63 - search - 进度：13/72
+2018-08-06 07:26:27,107 - gridsearch_1_xgb.py:72 - search - Best_auc=0.9844164, auc=0.9839249999999999, round=4359, params={'subsample': 0.6, 'learning_rate': 0.01, 'max_path': 7, 'colsample_bytree': 0.5}
+2018-08-06 07:26:27,107 - gridsearch_1_xgb.py:63 - search - 进度：14/72
+2018-08-06 11:31:44,149 - gridsearch_1_xgb.py:72 - search - Best_auc=0.9844164, auc=0.9841212, round=4268, params={'subsample': 0.8, 'learning_rate': 0.01, 'max_path': 7, 'colsample_bytree': 0.5}
+2018-08-06 11:31:44,149 - gridsearch_1_xgb.py:63 - search - 进度：15/72
+2018-08-06 13:03:49,330 - gridsearch_1_xgb.py:72 - search - Best_auc=0.9844164, auc=0.9838885999999999, round=1678, params={'subsample': 0.6, 'learning_rate': 0.025, 'max_path': 7, 'colsample_bytree': 0.5}
+2018-08-06 13:03:49,330 - gridsearch_1_xgb.py:63 - search - 进度：16/72
+2018-08-06 15:25:24,455 - gridsearch_1_xgb.py:72 - search - Best_auc=0.9844164, auc=0.9844164, round=2269, params={'subsample': 0.8, 'learning_rate': 0.025, 'max_path': 7, 'colsample_bytree': 0.5}
+2018-08-06 15:25:24,456 - gridsearch_1_xgb.py:63 - search - 进度：17/72
+2018-08-06 16:32:22,234 - gridsearch_1_xgb.py:72 - search - Best_auc=0.9844164, auc=0.9836832, round=964, params={'subsample': 0.6, 'learning_rate': 0.05, 'max_path': 7, 'colsample_bytree': 0.5}
+2018-08-06 16:32:22,235 - gridsearch_1_xgb.py:63 - search - 进度：18/72
+2018-08-06 17:50:45,819 - gridsearch_1_xgb.py:72 - search - Best_auc=0.9844164, auc=0.9840102, round=1097, params={'subsample': 0.8, 'learning_rate': 0.05, 'max_path': 7, 'colsample_bytree': 0.5}
+2018-08-06 17:50:45,820 - gridsearch_1_xgb.py:63 - search - 进度：19/72
+2018-08-06 21:49:34,619 - gridsearch_1_xgb.py:72 - search - Best_auc=0.9844164, auc=0.9839249999999999, round=4359, params={'subsample': 0.6, 'learning_rate': 0.01, 'max_path': 8, 'colsample_bytree': 0.5}
+2018-08-06 21:49:34,620 - gridsearch_1_xgb.py:63 - search - 进度：20/72
+2018-08-07 01:55:16,581 - gridsearch_1_xgb.py:72 - search - Best_auc=0.9844164, auc=0.9841212, round=4268, params={'subsample': 0.8, 'learning_rate': 0.01, 'max_path': 8, 'colsample_bytree': 0.5}
+2018-08-07 01:55:16,581 - gridsearch_1_xgb.py:63 - search - 进度：21/72
+2018-08-07 03:27:49,050 - gridsearch_1_xgb.py:72 - search - Best_auc=0.9844164, auc=0.9838885999999999, round=1678, params={'subsample': 0.6, 'learning_rate': 0.025, 'max_path': 8, 'colsample_bytree': 0.5}
+2018-08-07 03:27:49,051 - gridsearch_1_xgb.py:63 - search - 进度：22/72
+2018-08-07 05:41:47,901 - gridsearch_1_xgb.py:72 - search - Best_auc=0.9844164, auc=0.9844164, round=2269, params={'subsample': 0.8, 'learning_rate': 0.025, 'max_path': 8, 'colsample_bytree': 0.5}
+2018-08-07 05:41:47,901 - gridsearch_1_xgb.py:63 - search - 进度：23/72
+2018-08-07 06:37:23,344 - gridsearch_1_xgb.py:72 - search - Best_auc=0.9844164, auc=0.9836832, round=964, params={'subsample': 0.6, 'learning_rate': 0.05, 'max_path': 8, 'colsample_bytree': 0.5}
+2018-08-07 06:37:23,345 - gridsearch_1_xgb.py:63 - search - 进度：24/72
+2018-08-07 07:43:12,105 - gridsearch_1_xgb.py:72 - search - Best_auc=0.9844164, auc=0.9840102, round=1097, params={'subsample': 0.8, 'learning_rate': 0.05, 'max_path': 8, 'colsample_bytree': 0.5}
+2018-08-07 07:43:12,106 - gridsearch_1_xgb.py:63 - search - 进度：25/72
+2018-08-07 11:52:21,988 - gridsearch_1_xgb.py:72 - search - Best_auc=0.9844164, auc=0.9837447999999999, round=3746, params={'subsample': 0.6, 'learning_rate': 0.01, 'max_path': 5, 'colsample_bytree': 0.6}
+2018-08-07 11:52:21,989 - gridsearch_1_xgb.py:63 - search - 进度：26/72
